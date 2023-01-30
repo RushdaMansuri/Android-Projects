@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="label">My First App</string>
+    <string name="message">An App by Rushda Mansuri.</string>
+</resources>

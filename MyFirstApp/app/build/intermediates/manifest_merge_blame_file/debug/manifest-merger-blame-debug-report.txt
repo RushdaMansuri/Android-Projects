@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myfirstapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.myfirstapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.myfirstapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:5:5-25:19
+18        android:allowBackup="true"
+18-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/rushdavahora/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:10:9-41
+25        android:supportsRtl="true"
+25-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:11:9-35
+26        android:theme="@style/Theme.MyFirstApp" >
+26-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:12:9-48
+27        <activity
+27-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:14:9-24:20
+28            android:name="com.example.myfirstapp.MainActivity"
+28-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:15:13-41
+29            android:exported="true"
+29-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:16:13-36
+30            android:label="@string/app_name"
+30-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:17:13-45
+31            android:theme="@style/Theme.MyFirstApp.NoActionBar" >
+31-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:18:13-64
+32            <intent-filter>
+32-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:20:17-69
+33-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:22:17-77
+35-->/Users/rushdavahora/Desktop/Developer/MyFirstApp/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.myfirstapp.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/rushdavahora/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rushdavahora/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rushdavahora/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rushdavahora/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+49        </provider>
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] /Users/rushdavahora/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+57    </application>
+58
+59</manifest>
