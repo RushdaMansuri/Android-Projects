@@ -7,6 +7,6 @@ In the first week, we created a basic application understanding basics of androi
 Description:
 This app had two fragments. 
 The First fragment has 3 buttons:
-1. Toast: Displays a "Hello Toast" popup.
+1. Toast: Displays a "Hello Toast" message as in small popup.
 2. Count: Repeatedly, the count of "0" (on the opening screen) rises.
-3.Random: Random will navigate to the Second fragment, which displays a random number between 0 and count.
+3. Random: Random will navigate to the Second fragment, which displays a random number between 0 and count.
