@@ -70,7 +70,6 @@ public class WhoWroteItLoader {
 
             bookJSONString = builder.toString();
 
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
