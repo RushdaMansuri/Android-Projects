@@ -4,9 +4,11 @@ This repository will contain the list of projects/assignments prepared throughou
 Week 1 -> My First app
 In the first week, we created a basic application understanding basics of android studio.
 
-Description:
-This app had two fragments. 
-The First fragment has 3 buttons:
-1. Toast: Displays a "Hello Toast" message as in small popup.
-2. Count: Repeatedly, the count of "0" (on the opening screen) rises.
-3. Random: Random will navigate to the Second fragment, which displays a random number between 0 and count.
+Week 2 -> Git/ GitHub
+In the second week we did learnt about Git and Github. This directory includes the pratice materials.
+
+Week 4 -> CodeLabs for Chapter 1
+In the fourth week did 4 codelabs exercise. This codelabs consists demo of layouts, toast message, scrolling text and much more.
+
+Week 5 -> Async Task
+In the fifth week, we worked on 4 Aysnc task demos. This demos consists of Who_Wrote_It, Who_Wrote_It_Loader, Simple async task of Progress bar and a small sync image reload code.

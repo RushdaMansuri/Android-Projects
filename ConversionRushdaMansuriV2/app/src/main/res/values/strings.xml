@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">$ TO Є conversion: By Rushda Mansuri</string>
+    <string name="textview_dollar_amounts">Enter Amount in Dollars:</string>
+    <string name="hint_dollar_amounts"> 1 </string>
+    <string name="convert_button">Convert $ to Є</string>
+    <string name="conversion_rate_text">1$ = 0.88Є</string>
+</resources>
