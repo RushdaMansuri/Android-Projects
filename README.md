@@ -12,3 +12,9 @@ In the fourth week did 4 codelabs exercise. This codelabs consists demo of layou
 
 Week 5 -> Async Task
 In the fifth week, we worked on 4 Aysnc task demos. This demos consists of Who_Wrote_It, Who_Wrote_It_Loader, Simple async task of Progress bar and a small sync image reload code.
+
+Week 7 -> Firebase
+In the seventh week, we worked on 3 Firebase demos. This demos consists of Friendly_Chat, Employee, and RecyclerView.
+
+ConversionRushdaMansuriV2
+This app contains conversion of dollars to euros (1 dollar = 0.88 euro).
