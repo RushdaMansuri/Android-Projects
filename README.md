@@ -18,3 +18,6 @@ In the seventh week, we worked on 3 Firebase demos. This demos consists of Frien
 
 ConversionRushdaMansuriV2
 This app contains conversion of dollars to euros (1 dollar = 0.88 euro).
+
+Week 9 -> Kotlin
+In the nineth week, we worked on 2 Kotlin demos. This demos consists of GreetingCard and BusinessCard.
